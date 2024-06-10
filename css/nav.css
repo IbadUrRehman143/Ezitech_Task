@@ -17,7 +17,8 @@
 .navFlex {
     display: flex;
 }
-.navFlex a:hover{
+
+.navFlex a:hover {
     color: white;
 }
 
@@ -53,6 +54,6 @@
     color: black;
 }
 
-.navbar ul a:hover{
+.navbar ul a:hover {
     color: green;
 }

@@ -5,7 +5,8 @@
     margin-top: 2%;
 
 }
-.project-section{
+
+.project-section {
     margin-top: 12%;
 }
 
@@ -15,14 +16,15 @@
     background: green;
 
 }
-.project-section .project-text div:nth-child(2){
+
+.project-section .project-text div:nth-child(2) {
     margin-left: 1%;
     margin-right: 1%;
     color: green;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-    
+
 }
 
 .project-section .project-text div:last-child {
@@ -30,7 +32,8 @@
     height: 2px;
     background: green;
 }
-.section-heading{
+
+.section-heading {
     font-size: 20px;
     font-weight: 400;
     text-align: center;

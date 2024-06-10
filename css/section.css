@@ -1,4 +1,4 @@
-.section{
+.section {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -9,29 +9,36 @@
     height: 40%;
     background-attachment: fixed;
 }
-.section img{
+
+.section img {
     align-items: center;
     margin-top: 26%;
     margin-left: 6%;
 }
-.section p{
+
+.section p {
     margin-bottom: 8%;
     margin-left: 5%;
     color: white;
 }
-.section h2{
+
+.section h2 {
     margin-left: 5%;
 
 }
-.a{
+
+.a {
     background-color: rgb(30, 181, 30);
 }
-.b{
+
+.b {
     background-color: rgb(28, 209, 28);
 }
-.c{
+
+.c {
     background-color: rgb(12, 159, 12);
 }
-.d{
+
+.d {
     background-color: rgb(30, 181, 30);
 }
