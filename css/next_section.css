@@ -76,3 +76,31 @@
     height: 1px;
     margin-bottom: 1%;
 }
+
+
+
+@media (max-width: 768px) {
+    .next-section img.img1 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .next-section img.img2 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .next-section img.img3 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .next-section img.img4 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .next-section img.img5{
+        width: 100%;
+    }
+}

@@ -110,3 +110,38 @@
         color: rgb(205, 191, 191);
 
     }
+
+    @media (max-width: 1200px) {
+        .card3-section {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .card3-section .card3-div {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .card3-section {
+            flex-direction: column;
+        }
+    
+        .card3-section .card3-div {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .third-card-section .card4-section > div {
+            width: 80%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .third-card-section .card4-section > div {
+            width: 100%;
+        }
+    }

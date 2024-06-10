@@ -133,3 +133,9 @@
         transform: translateX(-100%);
     }
 }
+
+@media (max-width: 768px) {
+    .slide-section .project-text {
+        flex-direction: column;
+    }
+}

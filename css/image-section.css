@@ -234,3 +234,18 @@
 .section-img5 .img-div .line:hover {
     width: 150px;
 }
+@media (max-width: 768px) {
+    .image-section {
+        padding: 30px 10px;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-section {
+        padding: 20px 5px;
+    }
+}

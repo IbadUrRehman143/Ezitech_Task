@@ -39,3 +39,38 @@
     text-align: center;
     margin-top: 3%;
 }
+
+
+
+
+/* ---------------media query-------------------- */
+
+
+@media (max-width: 1200px) {
+    .project-section .section-img1, .project-section .section-img2, .project-section .section-img3, .project-section .section-img4, .project-section .section-img5 {
+        flex-direction: column;
+    }
+
+    .project-section .img-div, .project-section .v {
+        width: 100%;
+    }
+
+    .project-section .line {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-section .project-text, .slide-section .project-text {
+        flex-direction: column;
+    }
+
+    .project-section .section-img1, .project-section .section-img2, .project-section .section-img3, .project-section .section-img4, .project-section .section-img5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-section .img-div, .project-section .v {
+        width: 100%;
+    }
+}

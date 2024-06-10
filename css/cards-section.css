@@ -33,3 +33,31 @@
     font-weight: bold;
 
 }
+
+
+
+/* ---------media query---------- */
+
+
+@media (max-width: 1200px) {
+    .cards-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-section div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-section {
+        flex-direction: column;
+    }
+
+    .cards-section div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

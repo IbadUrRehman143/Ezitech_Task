@@ -42,3 +42,31 @@
 .d {
     background-color: rgb(30, 181, 30);
 }
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+

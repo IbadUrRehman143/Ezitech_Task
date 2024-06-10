@@ -103,3 +103,9 @@
 .row p {
     padding-bottom: 5%;
 }
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;
+    }
+}
